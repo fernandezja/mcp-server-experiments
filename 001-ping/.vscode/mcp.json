@@ -1,0 +1,14 @@
+{
+  "inputs": [],
+  "servers": {
+    "PingMCPServer": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/PingMCPServer.csproj"
+      ]
+    }
+  }
+}
